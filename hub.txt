@@ -1,0 +1,5 @@
+hub ChIPseq Akerberg-Tbx5 Gao-Isl1 Wamstad-ESC-MES-CP-CM / IrosPipeline
+shortLabel ChIPseq Akerberg Gao Wamstad / IrosPipeline
+longLabel ChIPseq Akerberg-Tbx5 Gao-Isl1 Wamstad-ESC-MES-CP-CM / IrosPipeline
+genomesFile genomes.txt 
+email  matteo.zoia@dbmr.unibe.ch
