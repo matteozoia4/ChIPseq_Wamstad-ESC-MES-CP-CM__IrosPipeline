@@ -607,7 +607,7 @@ track Overlay_Wamstad_SRR900944_SRR900945_SRR900946_H3K4me1_CM_Rep_1_2_3
 
 
 track Intersect_Wamstad_SRR900944_SRR900945_SRR900946_H3K4me1_CM_Rep_1_2_3
-bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/ESC to CM ChIP-seq Wamstad mm10 GSE47948 - Nadia Wt1 (IrosPipeline)/intersect_SRR900944_SRR900945_SRR900946.bw
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/ESC to CM ChIP-seq Wamstad mm10 GSE47948 - Nadia Wt1 (IrosPipeline)/intersect_44_45_46.bw
 shortLabel Wamstad_CM
 longLabel Intersect_Wamstad_SRR900944_SRR900945_SRR900946_H3K4me1_CM_Rep_1_2_3
 type bigWig 0.816622 10
