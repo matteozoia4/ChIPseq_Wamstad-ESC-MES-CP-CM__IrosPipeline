@@ -1401,7 +1401,7 @@ color 255,171,81
 
 
 track Wamstad_SRR900976_RNAP_Ser5_Phos_MES_Rep_2_regions
-bigDataUrl 
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/ESC to CM ChIP-seq Wamstad mm10 GSE47948 - Nadia Wt1 (IrosPipeline)/Rest/SRR900976rep2_only_regions.bb
 itemRgb on
 shortLabel Wamstad_MES
 longLabel Wamstad_SRR900976_RNAP_Ser5_Phos_MES_Rep_2_regions        
@@ -1429,7 +1429,7 @@ color 207,93,56
 
 
 track Wamstad_SRR900975_RNAP_Ser5_Phos_MES_Rep_1_regions
-bigDataUrl 
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/ESC to CM ChIP-seq Wamstad mm10 GSE47948 - Nadia Wt1 (IrosPipeline)/Rest/SRR900975rep1_only_regions.bb
 itemRgb on
 shortLabel Wamstad_MES
 longLabel Wamstad_SRR900975_RNAP_Ser5_Phos_MES_Rep_1_regions
