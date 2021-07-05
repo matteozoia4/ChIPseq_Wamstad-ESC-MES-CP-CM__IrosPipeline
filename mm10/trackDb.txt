@@ -631,7 +631,7 @@ longLabel Intersect_Wamstad_SRR900944_SRR900945_SRR900946_H3K4me1_CM_Rep_1_2_3_r
 type bigBed 3 . 
 configurable on
 visibility dense
-color 230,151,226
+color 230,151,226 
 
 
 track Wamstad_SRR900947_H3K27ac_ESC_Rep_1
