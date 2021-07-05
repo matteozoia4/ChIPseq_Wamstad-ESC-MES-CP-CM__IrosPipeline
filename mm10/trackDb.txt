@@ -1120,3 +1120,397 @@ type bigBed 3 .
 configurable on
 visibility dense
 color 230,151,226 
+
+
+track Intersect_Wamstad_SRR900979_SRR900980_RNAP_Ser5_Phos_CM_Rep_1_2
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/ESC to CM ChIP-seq Wamstad mm10 GSE47948 - Nadia Wt1 (IrosPipeline)/Rest/intersect_SRR900979_SRR900980.bw
+shortLabel Wamstad_CM
+longLabel Intersect_Wamstad_SRR900979_SRR900980_RNAP_Ser5_Phos_CM_Rep_1_2
+type bigWig 0.816622 10
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 230,151,226
+
+
+track Wamstad_SRR900980_RNAP_Ser5_Phos_CM_Rep_2
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/ESC to CM ChIP-seq Wamstad mm10 GSE47948 - Nadia Wt1 (IrosPipeline)/Rest/SRR900980.bw
+shortLabel Wamstad_CM
+longLabel Wamstad_SRR900944_H3K4me1_CM_Rep_1
+type bigWig 0.816622 10
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 199,151,211
+
+
+track Wamstad_SRR900980_RNAP_Ser5_Phos_CM_Rep_2_regions
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/ESC to CM ChIP-seq Wamstad mm10 GSE47948 - Nadia Wt1 (IrosPipeline)/Rest/SRR900980rep2_only_regions.bb
+itemRgb on
+shortLabel Wamstad_CM
+longLabel Wamstad_SRR900944_H3K4me1_CM_Rep_1_regions        
+type bigBed 3 . 
+configurable on
+visibility dense
+color 199,151,211
+
+
+track Wamstad_SRR900979_RNAP_Ser5_Phos_CM_Rep_1
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/ESC to CM ChIP-seq Wamstad mm10 GSE47948 - Nadia Wt1 (IrosPipeline)/Rest/SRR900979.bw
+shortLabel Wamstad_CM
+longLabel Wamstad_SRR900979_RNAP_Ser5_Phos_CM_Rep_1
+type bigWig 0.816622 10
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 238,149,217
+
+
+track Wamstad_SRR900979_RNAP_Ser5_Phos_CM_Rep_1_regions
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/ESC to CM ChIP-seq Wamstad mm10 GSE47948 - Nadia Wt1 (IrosPipeline)/Rest/SRR900979rep1_only_regions.bb 
+itemRgb on
+shortLabel Wamstad_CM
+longLabel Wamstad_SRR900979_RNAP_Ser5_Phos_CM_Rep_1_regions
+type bigBed 3 . 
+configurable on
+visibility dense
+color 238,149,217        
+
+
+track Overlay_Wamstad_SRR900979_SRR900980_RNAP_Ser5_Phos_CM_Rep_1_2
+    container multiWig
+    shortLabel Wamstad_CM
+    longLabel Overlay_Wamstad_SRR900979_SRR900980_RNAP_Ser5_Phos_CM_Rep_1_2
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0.816622:10
+    viewLimitsMax 0.816622:124.127
+    maxHeightPixels 128:30:11
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+    
+    
+        track Wamstad_SRR900979_RNAP_Ser5_Phos_CM_Rep_1_
+        parent Overlay_Wamstad_SRR900979_SRR900980_RNAP_Ser5_Phos_CM_Rep_1_2
+        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/ESC to CM ChIP-seq Wamstad mm10 GSE47948 - Nadia Wt1 (IrosPipeline)/Rest/SRR900979.bw
+        shortLabel Wamstad_CM
+        longLabel Wamstad_SRR900979_RNAP_Ser5_Phos_CM_Rep_1
+        type bigWig
+        color 199,151,211
+          
+
+        track Wamstad_SRR900980_RNAP_Ser5_Phos_CM_Rep_2_
+        parent Overlay_Wamstad_SRR900979_SRR900980_RNAP_Ser5_Phos_CM_Rep_1_2
+        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/ESC to CM ChIP-seq Wamstad mm10 GSE47948 - Nadia Wt1 (IrosPipeline)/Rest/SRR900980.bw
+        shortLabel Wamstad_CM
+        longLabel Wamstad_SRR900980_RNAP_Ser5_Phos_CM_Rep_2
+        type bigWig
+        color 238,149,217
+
+
+track Intersect_Wamstad_SRR900979_SRR900980_RNAP_Ser5_Phos_CM_Rep_1_2_regions
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/ESC to CM ChIP-seq Wamstad mm10 GSE47948 - Nadia Wt1 (IrosPipeline)/Rest/intersect_SRR900979_SRR900980_rep1_2.bb
+itemRgb on
+shortLabel Wamstad_CM
+longLabel Intersect_Wamstad_SRR900979_SRR900980_RNAP_Ser5_Phos_CM_Rep_1_2_regions       
+type bigBed 3 . 
+configurable on
+visibility dense
+color 230,151,226
+
+
+track Intersect_Wamstad_SRR900977_SRR900978_RNAP_Ser5_Phos_CP_Rep_1_2
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/ESC to CM ChIP-seq Wamstad mm10 GSE47948 - Nadia Wt1 (IrosPipeline)/Rest/intersect_SRR900977_SRR900978.bw
+shortLabel Wamstad_CP
+longLabel Intersect_Wamstad_SRR900977_SRR900978_RNAP_Ser5_Phos_CP_Rep_1_2 
+type bigWig 0.816622 10
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 216,52,53
+
+
+track Wamstad_SRR900978_RNAP_Ser5_Phos_CP_Rep_2
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/ESC to CM ChIP-seq Wamstad mm10 GSE47948 - Nadia Wt1 (IrosPipeline)/Rest/SRR900978.bw
+shortLabel Wamstad_CP
+longLabel Wamstad_SRR900978_RNAP_Ser5_Phos_CP_Rep_2
+type bigWig 0.816622 10
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 242,70,50
+
+
+track Wamstad_SRR900978_RNAP_Ser5_Phos_CP_Rep_2_regions
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/ESC to CM ChIP-seq Wamstad mm10 GSE47948 - Nadia Wt1 (IrosPipeline)/Rest/SRR900978rep2_only_regions.bb
+itemRgb on
+shortLabel Wamstad_CP
+longLabel Wamstad_SRR900978_RNAP_Ser5_Phos_CP_Rep_2_regions        
+type bigBed 3 . 
+configurable on
+visibility dense
+color 242,70,50        
+
+
+track Wamstad_SRR900977_RNAP_Ser5_Phos_CP_Rep_1
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/ESC to CM ChIP-seq Wamstad mm10 GSE47948 - Nadia Wt1 (IrosPipeline)/Rest/SRR900977.bw
+shortLabel Wamstad_CP
+longLabel Wamstad_SRR900977_RNAP_Ser5_Phos_CP_Rep_1
+type bigWig 0.816622 10
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 186,29,24
+
+
+track Wamstad_SRR900977_RNAP_Ser5_Phos_CP_Rep_1_regions
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/ESC to CM ChIP-seq Wamstad mm10 GSE47948 - Nadia Wt1 (IrosPipeline)/Rest/SRR900977rep1_only_regions.bb
+itemRgb on
+shortLabel Wamstad_CP
+longLabel Wamstad_SRR900977_RNAP_Ser5_Phos_CP_Rep_1_regions
+type bigBed 3 . 
+configurable on
+visibility dense
+color 186,29,24
+
+
+track Overlay_Wamstad_SRR900977_SRR900978_RNAP_Ser5_Phos_CP_Rep_1_2
+    container multiWig
+    shortLabel Wamstad_CP
+    longLabel Overlay_Wamstad_SRR900977_SRR900978_RNAP_Ser5_Phos_CP_Rep_1_2
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0.816622:10
+    viewLimitsMax 0.816622:124.127
+    maxHeightPixels 128:30:11
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+    
+    
+        track Wamstad_SRR90097_RNAP_Ser5_Phos_CP_Rep_1_
+        parent Overlay_Wamstad_SRR900977_SRR900978_RNAP_Ser5_Phos_CP_Rep_1_2
+        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/ESC to CM ChIP-seq Wamstad mm10 GSE47948 - Nadia Wt1 (IrosPipeline)/Rest/SRR900977.bw
+        shortLabel Wamstad_CP
+        longLabel Wamstad_SRR90097_RNAP_Ser5_Phos_CP_Rep_1
+        type bigWig
+        color 242,70,50
+          
+
+        track Wamstad_SRR900978_RNAP_Ser5_Phos_CP_Rep_2_
+        parent Overlay_Wamstad_SRR900977_SRR900978_RNAP_Ser5_Phos_CP_Rep_1_2
+        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/ESC to CM ChIP-seq Wamstad mm10 GSE47948 - Nadia Wt1 (IrosPipeline)/Rest/SRR900978.bw
+        shortLabel Wamstad_CP
+        longLabel Wamstad_SRR900978_RNAP_Ser5_Phos_CP_Rep_2
+        type bigWig
+        color 186,29,24
+
+
+track Intersect_Wamstad_SRR900977_SRR900978_RNAP_Ser5_Phos_CP_Rep_1_2_regions
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/ESC to CM ChIP-seq Wamstad mm10 GSE47948 - Nadia Wt1 (IrosPipeline)/Rest/intersect_SRR900977_SRR900978_rep1_2.bb
+itemRgb on
+shortLabel Wamstad_CP
+longLabel Intersect_Wamstad_SRR900977_SRR900978_RNAP_Ser5_Phos_CP_Rep_1_2_regions       
+type bigBed 3 . 
+configurable on
+visibility dense
+color 216,52,53
+
+
+track Intersect_Wamstad_SRR900975_SRR900976_RNAP_Ser5_Phos_MES_Rep_1_2
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/ESC to CM ChIP-seq Wamstad mm10 GSE47948 - Nadia Wt1 (IrosPipeline)/Rest/intersect_SRR900975_SRR900976.bw 
+shortLabel Wamstad_MES
+longLabel Intersect_Wamstad_SRR900975_SRR900976_RNAP_Ser5_Phos_MES_Rep_1_2
+type bigWig 0.816622 10
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 237,131,67 
+
+
+track Wamstad_SRR900976_RNAP_Ser5_Phos_MES_Rep_2
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/ESC to CM ChIP-seq Wamstad mm10 GSE47948 - Nadia Wt1 (IrosPipeline)/Rest/SRR900976.bw
+shortLabel Wamstad_MES
+longLabel Wamstad_SRR900976_RNAP_Ser5_Phos_MES_Rep_2
+type bigWig 0.816622 10
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 255,171,81
+
+
+track Wamstad_SRR900976_RNAP_Ser5_Phos_MES_Rep_2_regions
+bigDataUrl 
+itemRgb on
+shortLabel Wamstad_MES
+longLabel Wamstad_SRR900976_RNAP_Ser5_Phos_MES_Rep_2_regions        
+type bigBed 3 . 
+configurable on
+visibility dense
+color 255,171,81        
+
+
+track Wamstad_SRR900975_RNAP_Ser5_Phos_MES_Rep_1
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/ESC to CM ChIP-seq Wamstad mm10 GSE47948 - Nadia Wt1 (IrosPipeline)/Rest/SRR900975.bw
+shortLabel Wamstad_MES
+longLabel Wamstad_SRR900975_RNAP_Ser5_Phos_MES_Rep_1
+type bigWig 0.816622 10
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 207,93,56
+
+
+track Wamstad_SRR900975_RNAP_Ser5_Phos_MES_Rep_1_regions
+bigDataUrl 
+itemRgb on
+shortLabel Wamstad_MES
+longLabel Wamstad_SRR900975_RNAP_Ser5_Phos_MES_Rep_1_regions
+type bigBed 3 . 
+configurable on
+visibility dense
+color 207,93,56        
+
+
+track Overlay_Wamstad_SRR900975_SRR900976_RNAP_Ser5_Phos_MES_Rep_1_2
+    container multiWig
+    shortLabel Wamstad_MES
+    longLabel Overlay_Wamstad_SRR900975_SRR900976_RNAP_Ser5_Phos_MES_Rep_1_2
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0.816622:10
+    viewLimitsMax 0.816622:124.127
+    maxHeightPixels 128:30:11
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+    
+    
+        track Wamstad_SRR900975_RNAP_Ser5_Phos_MES_Rep_1_
+        parent Overlay_Wamstad_SRR900975_SRR900976_RNAP_Ser5_Phos_MES_Rep_1_2
+        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/ESC to CM ChIP-seq Wamstad mm10 GSE47948 - Nadia Wt1 (IrosPipeline)/Rest/SRR900975.bw
+        shortLabel Wamstad_MES
+        longLabel Wamstad_SRR900938_RNAP_Ser5_Phos_MES_Rep_1
+        type bigWig
+        color 255,171,81
+          
+
+        track Wamstad_SRR900976_RNAP_Ser5_Phos_MES_Rep_2_
+        parent Overlay_Wamstad_SRR900975_SRR900976_RNAP_Ser5_Phos_MES_Rep_1_2
+        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/ESC to CM ChIP-seq Wamstad mm10 GSE47948 - Nadia Wt1 (IrosPipeline)/Rest/SRR900976.bw
+        shortLabel Wamstad_MES
+        longLabel Wamstad_SRR900939_RNAP_Ser5_Phos_MES_Rep_2
+        type bigWig
+        color 207,93,56
+
+
+track Intersect_Wamstad_SRR900975_SRR900976_RNAP_Ser5_Phos_MES_Rep_1_2_regions
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/ESC to CM ChIP-seq Wamstad mm10 GSE47948 - Nadia Wt1 (IrosPipeline)/Rest/intersect_SRR900975_SRR900976_rep1_2.bb
+itemRgb on
+shortLabel Wamstad_MES
+longLabel Intersect_Wamstad_SRR900975_SRR900976_RNAP_Ser5_Phos_MES_Rep_1_2_regions       
+type bigBed 3 . 
+configurable on
+visibility dense
+color 237,131,67
+
+
+track Wamstad_SRR900974_RNAP_Ser5_Phos_ESC_Rep_2
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/ESC to CM ChIP-seq Wamstad mm10 GSE47948 - Nadia Wt1 (IrosPipeline)/Rest/SRR900974.bw
+shortLabel Wamstad_ESC
+longLabel Wamstad_SRR900974_RNAP_Ser5_Phos_ESC_Rep_2
+type bigWig 0.816622 10
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 127,201,88
+
+
+track Wamstad_SRR900974_RNAP_Ser5_Phos_ESC_Rep_2_regions
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/ESC to CM ChIP-seq Wamstad mm10 GSE47948 - Nadia Wt1 (IrosPipeline)/Rest/SRR900974rep2_only_regions.bb
+itemRgb on
+shortLabel Wamstad_ESC
+longLabel Wamstad_SRR900974_RNAP_Ser5_Phos_ESC_Rep_2_regions        
+type bigBed 3 . 
+configurable on
+visibility dense
+color 127,201,88
