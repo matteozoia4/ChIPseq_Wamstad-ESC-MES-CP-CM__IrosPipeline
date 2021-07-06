@@ -953,7 +953,7 @@ color 255,171,81
 
 track Overlay_Wamstad_SRR900949_SRR900950_H3K27ac_MES_Rep_1_2
     container multiWig
-    shortLabel Wamstad_H3K27ac_MES
+    shortLabel Wamstad_MES
     longLabel Overlay_Wamstad_SRR900949_SRR900950_H3K27ac_MES_Rep_1_2
     type bigWig 0 30000
     configurable on
@@ -988,7 +988,7 @@ track Overlay_Wamstad_SRR900949_SRR900950_H3K27ac_MES_Rep_1_2
         type bigWig
         color 207,93,56
 
-     
+
 track Intersect_Wamstad_SRR900949_SRR900950_H3K27ac_MES_Rep_1_2_regions
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/ESC to CM ChIP-seq Wamstad mm10 GSE47948 - Nadia Wt1 (IrosPipeline)/H3K27ac/intersect_SRR900949_SRR900950_MES_rep1_2_only_regions.bb
 itemRgb on
