@@ -974,7 +974,7 @@ track Overlay_Wamstad_SRR900949_SRR900950_H3K27ac_MES_Rep_1_2
         track Wamstad_SRR900949_H3K27ac_MES_Rep_1_
         parent Overlay_Wamstad_SRR900949_SRR900950_H3K27ac_MES_Rep_1_2
         bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/ESC to CM ChIP-seq Wamstad mm10 GSE47948 - Nadia Wt1 (IrosPipeline)/H3K27ac/SRR900949rep1.bw
-        shortLabel Wamstad_H3K27a_MES
+        shortLabel Wamstad_MES
         longLabel Wamstad_SRR900949_H3K27ac_MES_Rep_1
         type bigWig
         color 255,171,81
